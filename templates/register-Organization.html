@@ -1,0 +1,96 @@
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<style>
+button:hover
+{
+	cursor:hand;
+}
+html{
+background: rgb(244,65,53);
+background: linear-gradient(153deg, rgba(244,65,53,1) 0%, rgba(255,235,0,1) 100%);
+ font-family: Roboto,Verdana, Geneva, sans-serif;
+}
+.roboto{
+ font-family: Roboto,Verdana, Geneva, sans-serif;
+}
+input{
+font-size:70%;
+padding:10px;	
+margin:10px;
+width:80%
+}
+img.arrow{
+	margin:20px;
+	width:60px;
+	animation: mover 1s infinite alternate;
+	
+}
+@keyframes mover{
+	0%{transform: translateY(0);}
+	100%{transform: translateY(-30px);}
+}
+
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Register</title>
+</head>
+<body style="padding:50px">
+<table width="100%">
+	<tr>
+		<td width="50%" style="text-align:center;color:white;padding-top:50px" valign="top" >
+					<img class="arrow" src="icon.png">
+					<h1>Join us</h1>
+					<span style="font-size:20px;line-height:1.4em">
+					Join us and make a difference in the world<br/>
+					by meeting friends while listening to your music
+					
+					
+					<br/><br/>
+					<a href="register-student.html">
+										<button 
+										
+										style="width:250px;border-radius:20px;background:white;color:black;padding:10px;border:0px;font-size:90% ">
+						I Am Student
+					</button>
+					</a>
+					
+
+					<span>
+					<br/><br/>
+					
+		</td>
+		<td style="padding:30px" width="50%" >
+			<div style="width:100%;min-height:450px;background:#eee
+			; border-top-left-radius: 10% 50%;
+			  border-bottom-left-radius: 10% 50%;text-align:center">
+			<div style="padding-top:5px;">
+				<h1>Organization Register<h1>
+				<form>
+					<input id = "username" type="text" placeholder="Username" required> <br/>
+					<input id = "orgName" type="text" placeholder="Name of organization" required><br/>
+					<input id = "address" type="text" placeholder="Address" required><br/>
+					<input id = "password" type="password" placeholder="Password" required><br/>
+				
+					<div style="width:90%;text-align:right;">
+					<a href="login-Organization.html">						
+					<button  style="width:140px;border-radius:20px;background:white;color:gray;padding:10px;border:2px solid #999;font-size:60% " type="submit">
+						Login
+					</button>
+					</a>
+
+					<button style="width:140px;border-radius:20px;background:rgb(244,65,53);color:white;padding:10px;border:0px;font-size:60% " type="submit" onclick= "getOrgRegister()">
+						Register
+					</button>
+					</div>
+					
+				<form>
+			</div>
+			<div>
+		</td>
+	</tr>
+</table>
+<script src="./handleOrgLogin.js"/>
+</body>
+</html>
