@@ -1,6 +1,6 @@
 # Hackathon-Project
 
-<h1>The project is hosted at: https://hackathonproject01.netlify.app/</h1>
+<h2>The project is hosted at: https://hackathonproject01.netlify.app/</h2>
 
 <p>More about the idea and why we built it:</p>
 
